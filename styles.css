@@ -1,0 +1,250 @@
+/* Inicio estilos barra navegación**/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: aquamarine;
+    display: flex;
+    justify-items: left;
+}
+
+.logo {
+    padding: 0 150px 0 0;
+}
+
+nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 20px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li:hover {
+    background-color: teal;
+    transition: 0.9s;
+}
+
+@media only screen and (max-width: 950px) {
+    nav ul {
+        height: 260px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        border-bottom: 1px solid white;
+    }
+
+    nav {
+        display: block;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+    .imagen-logo {
+        padding: 0 0 0 140px;
+    }
+}
+/* Fin estilos barra navegación**/
+
+
+
+
+/*Inicio estilos imagen Tom**/
+.imagen-tom {
+    width: 100%;
+}
+/*Fin estilos imagen Tom**/
+
+
+
+/**Incio estilos rescate y crowfunging*/
+.rescate {
+    float: left;
+    max-width: 45%;
+}
+
+.titulorescate {
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+}
+
+.subtitulorescate {
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    opacity: 0.5;
+}
+
+.textorescate {
+    text-align: right;
+    font-family: 'Muli', sans-serif;
+}
+
+.imagenrescate {
+    float: right;
+}
+
+.crowdfunding {
+    margin-left: 50%;
+}
+
+.imagencrowdfunding {
+    max-width: 300px;
+}
+
+.titulocrowdfunding {
+    font-family: 'Raleway', sans-serif;
+}
+
+.subtitulocrowdfunding {
+    font-family: 'Raleway', sans-serif;
+    opacity: 0.5;
+}
+
+.textocrowdfunding {
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 50px;
+}
+
+.linkcampañas {
+    font-family: 'Raleway', sans-serif;
+    border: solid;
+    border-color: black;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+    color: black;
+}
+
+.linkcampañas:hover {
+    background-color: black;
+    color: white;
+}
+
+.linkcampañas:visited {
+    text-decoration: none;
+}
+
+.divisorrescate {
+    margin-left: 90%;
+}
+
+.divisorcrowdfunding {
+    margin-right: 90%;
+}
+
+.seccion2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    .rescate .crowdfunding .imagenrescate .imagencrowdfunding{
+        width: 100%;
+    }
+
+    .seccion2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .crowdfunding {
+        margin: 15px;
+    }
+
+    .rescate {
+        max-width: 100%;
+    }
+
+}
+/*Fin de estilos rescate y crowdfunding**/
+
+
+
+
+/**Inicio estilos galeria de imagenes*/
+.fila {
+    display: flex;
+}
+
+.columna {
+    padding-left: 15px;
+}
+
+.columna3 {
+    padding-right: 15px;
+}
+
+.galeria-imagenes {
+    padding: 15px 0 0 5px;
+    background-color: aquamarine;
+}
+
+.columna> div > img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-grid  img {
+    margin-bottom: 15px;
+}
+/*Fin estilos galeria de imagenes**/
+
+
+
+/*Inicio estilos footer**/
+.footer1 {
+    background-color: lightgrey;
+    height: 40px;
+}
+
+.contenedor-redes {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.facebook {
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0;
+}
+
+.instagram {
+    width: 100%;
+    height: 100%;
+    padding: 0 25px 0 0;
+    
+}
+
+.google {
+    width: 100%;
+    height: 100%;
+    padding: 0 25px 0 0;
+    
+}
+
+.mail {
+    width: 100%;
+    height: 100%;
+    padding: 0 100px 0 0;
+}
+/*Fin estilos footer**/
+
+
